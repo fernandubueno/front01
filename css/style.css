@@ -1,0 +1,30 @@
+h1{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 46px;
+}
+
+p{
+    color: rgb(23, 23, 136);
+    font-size: 22px;
+}
+
+h2{
+    color: crimson;
+}
+
+#primeiro{
+    color: orange;
+}
+
+#segundo{
+    color: darkviolet;
+}
+
+.letra_maiuscula{
+    text-transform: uppercase;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}

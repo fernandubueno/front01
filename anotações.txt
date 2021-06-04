@@ -1,0 +1,61 @@
+Tag ==> inserir conteúdo
+escrever uma tag ==> <nome da tag>conteúdo </nome da tag>
+Vs Code - documento html  !<enter>
+
+Títulos - - h + numero => h1 maior ...... h6 menor
+parágrafo -- <p> texto...... </p>
+
+comentário ctrl+;
+imagem --> <img src="endereço" alt="">
+NÃO TEM FECHAMENTO
+alt na imagem é  o texto alternativo ==> quando a imagem não carregar
+aparece o texto  - Pensando na usabilidade o texto alternativo é usado por leitores de tela
+ele fazem a leitura da tela e ditam todo o conteúdo - na imagem ele faz a leitura do atributo
+alt == BOA PRATICA PREENCHER O ALT - PENSE NA USABILIDADE
+
+  <!-- Linkando um arquivo CSS no HTML -->
+    <link rel="stylesheet" href="./css/style.css">
+
+Seletores CSS
+1- Seletor de tag ==> formata a tag,
+se vc tiver 20 tags iguais == todos eles
+ficarao iguais
+
+formatação == regra css
+
+
+
+seletor {
+    propriedade: valor;
+}
+
+seletor == quem eu quero formatar
+propriedade == o que eu quero formatar do seletor
+valor == como a propriedade deve ficar
+
+color - cor do texto na CSS
+
+
+rgb - red - green - blue
+valores entre  0 e 255
+rgb(32, 78, 129);
+                                10     11    12    13    14   15
+ hexadecimal = 0-9 - A      B     C     D      E      F
+ #FF6699 
+
+
+ Seletor de id  ==>  quando for muito específico
+ id == identificador exclusivo para um elemento
+ ids sejam diferentes
+
+ HTML ==> atributo id  ==> CSS #nome
+ id="nome" 
+
+ Seletor de class
+ regra css que tem um nome e pode ser
+ aplicada a qualquer elemento HTML
+ inclusive, pode ser repetida.
+
+ text-transform: uppercase;
+ deixa em letras maiúsculas
+ 
